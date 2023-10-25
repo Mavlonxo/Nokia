@@ -1,0 +1,47 @@
+.provider {
+    width: 100%;
+    height: 300px;
+    background-image: url(../../assets/touchscreen_0.jpg.webp);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 400;
+    font-size: 20px;
+    justify-content: space-around;
+    
+  }
+  
+  /* Media query for phones */
+  @media (max-width: 576px) {
+    .provider {
+      height: 200px;
+      font-size: 14px;
+      object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    }
+    .provider h1{
+        padding: 0px 20px;
+    }
+  }
+  
+  /* Media query for tablets */
+  @media (min-width: 577px) and (max-width: 1024px) {
+    .provider {
+      height: 400px;
+      font-size: 20px;
+      object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20px;
+
+    }
+    .provider h1{
+        padding: 0px 20px;
+    }
+
+  }
+  
